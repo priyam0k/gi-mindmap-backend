@@ -8,7 +8,7 @@ app = FastAPI()
 # This allows your website (priyamalok.me) to request data from this API.
 # Without this, the browser will block the request for security reasons.
 origins = [
-    "https://priyamalok.me",
+    "https://priyamalok-me.pages.dev",
     "http://127.0.0.1:5500", # For local testing
     "http://localhost:5500", # For local testing
 ]
@@ -327,3 +327,4 @@ mindmap_data = {
 def get_mindmap_data():
     """This endpoint returns the entire mind map data structure."""
     return mindmap_data
+
