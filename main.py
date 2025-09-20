@@ -225,12 +225,14 @@ mindmap_data = {
                     "Purpose": {},
                     "Typical Features": {},
                     "Types (Pre-funded, Time & Distance Deals, Spread Loss, Financial Quota Share)": {},
-                    "Risk Transfer Requirement": {} }
+                    "Risk Transfer Requirement": {}
+                },
                 "Run-off Reinsurance": {
                     "Definition": {},
                     "Adverse Development Cover": {},
-                    "Loss Portfolio Transfers (LPTs)": {} }
-                },
+                    "Loss Portfolio Transfers (LPTs)": {}
+                }
+            },
             "Alternatives to Reinsurance (Capital Markets)": {
                 "Committed (Contingent) Capital": { "Mechanism": {}, "Advantages": {} },
                 "Securitisation": { "General Principle": {}, "Insurance-Linked Securities (ILS)/ Cat Bonds": {}, "Special Purpose Vehicle (SPV)": {}, "Credit Securitisation": {}, "Motor Securitisation": {}, "Advantages": {} },
@@ -331,8 +333,3 @@ mindmap_data = {
 def get_mindmap_data():
     """This endpoint returns the entire mind map data structure."""
     return mindmap_data
-
-
-
-
-
