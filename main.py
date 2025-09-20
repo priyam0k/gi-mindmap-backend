@@ -159,6 +159,7 @@ mindmap_data = {
                 "Liability Insurance": {
                     "Employer’s Liability/ Worker’s Compensation": {},
                     "Motor Third Party Liability": {},
+                    "Marine and Aviation Liability": {},
                     "Public Liability": {},
                     "Product Liability": {},
                     "Professional Indemnity": {},
@@ -327,4 +328,5 @@ mindmap_data = {
 def get_mindmap_data():
     """This endpoint returns the entire mind map data structure."""
     return mindmap_data
+
 
